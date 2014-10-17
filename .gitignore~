@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+/sapii/bin/.settings/org.eclipse.m2e.core.prefs
+/sapii/.settings/org.eclipse.m2e.core.prefs
+=======
+sapii/.settings/org.eclipse.m2e.core.prefs
+sapii/.settings/org.eclipse.wst.validation.prefs
+sapii/WebContent/WEB-INF/classes/.gitignore
+>>>>>>> d937b28aaff0d80a988de44d39f3de9644d67f7c
