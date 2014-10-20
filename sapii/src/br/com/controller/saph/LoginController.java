@@ -14,23 +14,44 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package br.com.caelum.vraptor.blank;
+package br.com.controller.saph;
 
 import br.com.caelum.vraptor.Path;
 import br.com.caelum.vraptor.Resource;
 import br.com.caelum.vraptor.Result;
 
 @Resource
-public class IndexController {
+@Path("/login")
+public class LoginController {
 
 	private final Result result;
 
-	public IndexController(Result result) {
+	public LoginController(Result result) {
 		this.result = result;
 	}
 
 	@Path("/")
 	public void index() {
+		result.include("variable", "VRaptor!");
+	}
+	
+	@Path("/cca")
+	public void loginCCA() {
+		result.include("variable", "VRaptor!");
+	}
+	
+	@Path("/cliente")
+	public void loginCliente() {
+		result.include("variable", "VRaptor!");
+	}
+	
+	@Path("/about")
+	public void sobre() {
+		result.include("variable", "VRaptor!");
+	}
+	
+	@Path("/contact")
+	public void contato() {
 		result.include("variable", "VRaptor!");
 	}
 
